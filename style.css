@@ -1,0 +1,12 @@
+body {
+    background-color: blueviolet;
+}
+
+p {
+    background-color: cornflowerblue;
+    opacity: 0.6;
+}
+
+h1 {
+    border: 10px black double;
+}
