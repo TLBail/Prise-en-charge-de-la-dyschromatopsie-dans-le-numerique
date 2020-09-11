@@ -1,14 +1,19 @@
-    body {
-        height: 100%;
-        font-family: "Inconsolata", sans-serif;
+    html {
+        margin: 0;
+        padding: 0;
     }
     
-    .bgimg {
-        background-position: center;
-        background-size: cover;
-        background-image: url("/image/Test_Ishihara.jpg");
-        min-height: 75%;
+    body {
+        margin: 0;
+        padding: 0;
     }
+    
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {}
     
     #wrightable {
         background-color: white;
@@ -21,3 +26,5 @@
         text-align: center;
         padding-top: 0.3%;
     }
+    
+    footer {}
