@@ -97,10 +97,7 @@ html body {
 .column.middle {
     width: 50%;
     text-align: justify;
-}
-
-.center {
-    float: center;
+    margin: 0 33.33%;
 }
 
 
