@@ -99,6 +99,11 @@ html body {
     text-align: justify;
 }
 
+.center {
+    width: auto;
+    margin: 0 25%;
+}
+
 
 /* Clear floats after the columns */
 
