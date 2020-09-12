@@ -1,43 +1,112 @@
-    html {
-        margin: 0;
-        padding: 0;
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    background-image: url(/image/Test_Ishihara.jpg);
+    background-size: 100% 100%;
+}
+
+.topnavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.topnavButton {
+    float: left;
+}
+
+.topnavButton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnavButton a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+
+/* Left and right column */
+
+.column.side {
+    width: 25%;
+}
+
+
+/* Middle column */
+
+.column.middle {
+    width: 50%;
+    text-align: center;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column.side,
+    .column.middle {
+        width: 100%;
     }
-    
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    p {
-        margin: 0;
-        padding: 0;
-    }
-    /* header {}*/
-    
-    .wrightable {
-        background-color: white;
-        width: 40%;
-        height: 750px;
-        margin-right: 30%;
-        margin-top: 100px;
-        margin-left: 30%;
-        margin-bottom: 125px;
-        text-align: center;
-        padding-top: 0.3%;
-    }
-    
-    .bouton a {
-        display: inline-block;
-        width: 150px;
-        line-height: 50px;
-        text-align: center;
-        vertical-align: middle;
-        background: url(/image/boutonnoir.png) no-repeat;
-        color: white;
-        text-decoration: none;
-    }
-    
-    .bouton a:hover {
-        background: url(/image/boutonnoir2.png) no-repeat;
-    }
-    /* footer {}*/
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
