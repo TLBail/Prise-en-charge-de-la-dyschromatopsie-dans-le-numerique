@@ -96,12 +96,17 @@ html body {
 
 .column.middle {
     width: 50%;
-    text-align: justify;
+    text-align: center;
+}
+
+#centerlike {
+    width: 100%;
+    margin: 0 15vw;
+    text-align: left;
 }
 
 .center {
-    width: auto;
-    margin: 0 25%;
+    text-align: center;
 }
 
 
