@@ -6,9 +6,10 @@ html body {
 .header {
     background-color: #F1F1F1;
     text-align: center;
-    padding: 20px;
-    background-image: url(/image/Test_Ishihara.jpg);
-    background-size: 100% 100%;
+    padding: 90px;
+    background-image: url(/image/testIshihara.png);
+    background-size: auto;
+    background-position: center;
 }
 
 .topnavBar {
