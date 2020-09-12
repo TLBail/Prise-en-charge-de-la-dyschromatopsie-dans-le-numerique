@@ -99,6 +99,10 @@ html body {
     text-align: justify;
 }
 
+.center {
+    float: center;
+}
+
 
 /* Clear floats after the columns */
 
