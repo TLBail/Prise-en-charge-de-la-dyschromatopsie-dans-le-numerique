@@ -11,6 +11,8 @@ ul {
     position: fixed;
     height: 100%;
     overflow: auto;
+    top: 0;
+    left: 0;
 }
 
 li a {
@@ -50,6 +52,7 @@ li a:hover:not(.active) {
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
 }
+
 [class^="hvr-"] {
     margin: .4em;
     padding: 1em;
@@ -57,23 +60,27 @@ li a:hover:not(.active) {
     background: #e1e1e1;
     text-decoration: none;
     color: #666;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-p, [class^="hvr-"] {
+
+p,
+[class^="hvr-"] {
     font-family: 'Roboto', sans-serif;
 }
+
 a {
     color: #2098D1;
     text-decoration: none;
 }
-user agent stylesheet
-a:-webkit-any-link {
+
+user agent stylesheet a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
 }
+
 body {
     margin: 0;
     padding: 40px 0 0 0;
