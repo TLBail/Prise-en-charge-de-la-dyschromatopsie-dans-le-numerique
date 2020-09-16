@@ -1,168 +1,31 @@
 html body {
     margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: whitesmoke;
 }
 
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 90px;
-    background-image: url(/image/testIshihara.png);
-    background-size: auto;
-    background-position: center;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
+ul {
+    list-style-type: none;
     margin: 0;
-}
-
-.navbar a:hover .dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 12px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-
-/* Create three unequal columns that floats next to each other */
-
-.column {
-    float: left;
-    padding: 0.1px;
-}
-
-
-/* Left and right column */
-
-.column.side {
+    padding: 0;
     width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
-
-/* Middle column */
-
-.column.middle {
-    width: 50%;
-    text-align: center;
-}
-
-#centerlike {
-    width: 100%;
-    margin: 0 15vw;
-    text-align: left;
-}
-
-.center {
-    text-align: center;
-}
-
-.middle {
-    background-color: white;
-    box-shadow: -2px 2px 4px #333;
-    margin: 20px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
-    .column.side,
-    .column.middle {
-        width: 100%;
-    }
-}
-
-.pagination {
-    display: inline-block;
-}
-
-.pagination a {
-    color: black;
-    float: left;
+li a {
+    display: block;
+    color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-.pagination a.active {
+li a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-.pagination a:hover:not(.active) {
-    background-color: #ddd;
-}
-
-.footer {
-    background-color: #333;
-    color: whitesmoke;
-    text-align: center;
-    margin: 0 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
