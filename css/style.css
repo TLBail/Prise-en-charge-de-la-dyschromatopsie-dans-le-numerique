@@ -23,8 +23,11 @@ li a {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    margin-top: 10px;
+    background-color: #1c8520;
     color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 li a:hover:not(.active) {
@@ -34,7 +37,13 @@ li a:hover:not(.active) {
 
 .GrossCategorie {
     display: inline-block;
-    background: rgba(223, 208, 208, 0.8);
+    background: #4CAF50;
+    color: white;
+    margin: 10px;
+    width: 400px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
 }
 
 
