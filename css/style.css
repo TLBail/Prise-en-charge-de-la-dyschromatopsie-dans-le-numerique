@@ -15,7 +15,6 @@ ul {
     left: 0;
 }
 
-
 li a {
     display: block;
     color: #000;
@@ -47,43 +46,40 @@ li a:hover:not(.active) {
     font-size: 18px;
 }
 
+
 /* Css pour le contenu */
 
-[class^="contenu"]{
+[class^="contenu"] {
     display: block;
-    position: fixed;
     height: 100%;
     width: 75%;
-    right: 0;
-    top: 0;
-    background-color:  rgb(161, 239, 253);
+    float: right;
+    top: auto;
+    background-color: rgba(161, 239, 253, 0);
 }
 
-h1{
+h1 {
     display: block;
     background: rgba(223, 208, 208, 0.8);
     margin: 60px;
     padding: 40px;
-    
 }
 
-p{
+p {
     display: block;
     margin: 10px;
     padding: 10px;
     background: rgba(224, 101, 101, 0.8);
 }
 
-img{
+img {
     display: inline-block;
     margin: 10px;
     text-align: left;
-
     padding: 10px;
-    background: rgba(224, 101, 101, 0.8);
 }
 
-[class^="smalltext2"]{
+[class^="smalltext2"] {
     display: inline-block;
     margin: 10px;
     padding: 10px;
@@ -91,13 +87,15 @@ img{
     background: rgba(224, 101, 101, 0.8);
 }
 
-[class^="imgblock"]{
+[class^="imgblock"] {
     display: inline-block;
     margin: 10px;
     width: 280px;
     padding: 10px;
     background: rgba(224, 101, 101, 0.8);
 }
+
+
 /* button en dessous*/
 
 .hvr-fade {
@@ -147,4 +145,32 @@ body {
     font-family: sans-serif;
     color: #333;
     line-height: 140%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+}
+
+.flex-container .box {
+    width: 75%;
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+    word-break: break-all;
+    background-color: #ffffffda;
+}
+
+.box2 {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.BackgroundD {
+    background-image: url("/image/fondD.jpeg");
+    background-size: 100% 100%;
 }
