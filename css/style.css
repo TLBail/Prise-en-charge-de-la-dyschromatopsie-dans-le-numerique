@@ -1,6 +1,4 @@
-html body {
-    margin: 0;
-}
+
 
 ul {
     list-style-type: none;
@@ -60,9 +58,28 @@ li a:hover:not(.active) {
 
 h1 {
     display: block;
-    background: rgba(223, 208, 208, 0.8);
-    margin: 60px;
-    padding: 40px;
+    color: white;
+    padding: 10px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: teal;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titleImage{
+    background-image: url(/image/oeil.jpg);
+    background-size: cover;
+    display: block;
+    color: white;
+    padding: 10px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    background-color: teal;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 p {
