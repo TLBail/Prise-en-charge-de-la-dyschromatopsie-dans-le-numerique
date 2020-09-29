@@ -200,6 +200,33 @@ img {
     background-size: 100% 100%;
 }
 
+/*Css pour le site Vivre avec une dyschromatopsie */
+
+.titleImage4 {
+    background-image: url(/image/pompier\ triste.png);
+    background-size: cover;
+    display: block;
+    color: black;
+    padding: 10px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    background-color: yellowgreen;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textzone {
+    display: inline-block;
+    height: 500px;
+    background: rgba(224, 101, 101, 0.8);
+}
+.minitextzone{
+    background: rgba(224, 101, 101, 0.8);
+    margin: 10px;
+    padding: 10px;
+}
+
 
 /* button en dessous*/
 
