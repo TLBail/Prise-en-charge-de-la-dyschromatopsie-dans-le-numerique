@@ -201,6 +201,24 @@ a:hover, .dropdown-btn:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.toblackBg{
+  display: block;
+  width: max-content;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.151);
+}
+
+.toWhiteBg{
+  display: block;
+  color: black;
+  width: max-content;
+  margin: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.151);
+}
+
 /* Css pour Aije une dischromatopsie */
 
 .thinkbackground{
@@ -233,6 +251,7 @@ a:hover, .dropdown-btn:hover {
 }
 
 .miniboite {
+  padding: 1em;
     text-align: left;
     line-height: 75px;
     font-size: 50px;
