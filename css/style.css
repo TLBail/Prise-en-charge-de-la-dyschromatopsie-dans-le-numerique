@@ -1,3 +1,15 @@
+
+body {
+  margin: 0;
+  padding: 40px 0 0 0;
+  font-family: sans-serif;
+  color: #333;
+  line-height: 140%;
+}
+
+
+
+
 /*sidebar*/
 
 ul {
@@ -87,26 +99,27 @@ a:hover, .dropdown-btn:hover {
   }
 
 .dropdown-container .dropdown_item-1 {
-    
     transform-origin: top center;
     animation: translateX 300ms 60ms ease-in-out forwards;
-  }
-  .dropdown-container .dropdown_item-2 {
+}
+.dropdown-container .dropdown_item-2 {
     transform-origin: top center;
     animation: translateX 300ms 120ms ease-in-out forwards;
-  }
-  .dropdown-container .dropdown_item-3 {
+}
+.dropdown-container .dropdown_item-3 {
     transform-origin: top center;
     animation: translateX 300ms 180ms ease-in-out forwards;
-  }
-  .dropdown_menu-5 .dropdown_item-4 {
+}
+.dropdown_menu-5 .dropdown_item-4 {
     transform-origin: top center;
     animation: translateX 300ms 240ms ease-in-out forwards;
-  }
-  .dropdown_menu-5 .dropdown_item-5 {
+}
+.dropdown_menu-5 .dropdown_item-5 {
     transform-origin: top center;
     animation: translateX 300ms 300ms ease-in-out forwards;
-  }
+}
+
+  /* outil dropdown */
   @-moz-keyframes translateX {
     0% {
       opacity: 0;
@@ -173,16 +186,6 @@ a:hover, .dropdown-btn:hover {
     background-color: rgba(161, 239, 253, 0);
 }
 
-h1 {
-    display: block;
-    color: white;
-    padding: 10px;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    background-color: teal;
-    font-weight: lighter;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .titleImage {
     background-image: url(/image/oeil.jpg);
@@ -198,41 +201,17 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    background: rgba(224, 101, 101, 0.8);
-}
-
-img {
-    display: inline-block;
-    text-align: left;
-    padding: 10px;
-}
-
-
 /* Css pour Aije une dischromatopsie */
 
-.titleImage3 {
-    background-image: url(/image/think.png);
-    background-size: cover;
-    display: block;
-    color: black;
-    padding: 10px;
-    padding-top: 15%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
-    background-color: teal;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.thinkbackground{
+  background-image: url(/image/think.png);
 }
 
 .smalltext2 {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background: rgba(224, 101, 101, 0.8);
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(224, 101, 101, 0.8);
 }
 
 .imgblock {
@@ -264,18 +243,8 @@ img {
     line-height: 200%;
 }
 
-.titleImage2 {
-    background-image: url(/image/zlatan.jpg);
-    background-size: cover;
-    display: block;
-    color: white;
-    padding: 10px;
-    padding-top: 15%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
-    background-color: teal;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.zlatanImg{
+  background-image: url(/image/zlatan.jpg);
 }
 
 
@@ -313,18 +282,8 @@ img {
 
 /*Css pour le site Vivre avec une dyschromatopsie */
 
-.titleImage4 {
-    background-image: url(/image/pompier\ triste.png);
-    background-size: cover;
-    display: block;
-    color: black;
-    padding: 10px;
-    padding-top: 15%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
-    background-color: yellowgreen;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.pompierImg{
+  background-image: url(/image/pompier\ triste.png);
 }
 
 .textzone {
@@ -380,12 +339,4 @@ user agent stylesheet a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
-}
-
-body {
-    margin: 0;
-    padding: 40px 0 0 0;
-    font-family: sans-serif;
-    color: #333;
-    line-height: 140%;
 }
