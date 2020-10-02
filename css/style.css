@@ -297,6 +297,13 @@ a:hover, .dropdown-btn:hover {
     padding: 10px;
 }
 
+.textUndertitle{
+  display: block ;
+  background: rgba(0, 0, 0, 0.137);
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /* button en dessous*/
 
