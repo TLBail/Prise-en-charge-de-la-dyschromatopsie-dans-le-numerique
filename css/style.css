@@ -100,6 +100,7 @@ a:hover, .dropdown-btn:hover {
 
 .dropdown-container .dropdown_item-1 {
     transform-origin: top center;
+<<<<<<< Updated upstream
     animation: translateX 300ms 60ms ease-in-out forwards;
 }
 .dropdown-container .dropdown_item-2 {
@@ -120,6 +121,26 @@ a:hover, .dropdown-btn:hover {
 }
 
   /* outil dropdown */
+=======
+    animation: translateX 300ms 0ms ease-in-out forwards;
+  }
+  .dropdown-container .dropdown_item-2 {
+    transform-origin: top center;
+    animation: translateX 300ms 60ms ease-in-out forwards;
+  }
+  .dropdown-container .dropdown_item-3 {
+    transform-origin: top center;
+    animation: translateX 300ms 120ms ease-in-out forwards;
+  }
+  .dropdown_menu-5 .dropdown_item-4 {
+    transform-origin: top center;
+    animation: translateX 300ms 180ms ease-in-out forwards;
+  }
+  .dropdown_menu-5 .dropdown_item-5 {
+    transform-origin: top center;
+    animation: translateX 300ms 240ms ease-in-out forwards;
+  }
+>>>>>>> Stashed changes
   @-moz-keyframes translateX {
     0% {
       opacity: 0;
