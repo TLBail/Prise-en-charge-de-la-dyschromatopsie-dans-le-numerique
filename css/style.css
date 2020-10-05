@@ -200,11 +200,13 @@ a:hover, .dropdown-btn:hover {
 
 .contenu {
     display: block;
+    background-image: url(http://philippevallee.weebly.com/files/theme/default-bg.jpg?1601313328);
+    background-attachment: fixed;
+    background-size: cover;
     height: 100%;
     width: 75%;
     float: right;
     top: auto;
-    background-color: rgba(161, 239, 253, 0);
 }
 
 
