@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: 0;
     display: block !important;
-    position: ;
+    position: fixed;
 }
 
 
@@ -202,7 +202,7 @@ li a:hover:not(.active) {
 
 .contenu {
     display: block;
-    background-image: url(http://philippevallee.weebly.com/files/theme/default-bg.jpg?1601313328);
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/2308610/lines-background.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=ac0e5a5854dd26fb073dbcb1ff7f1c1d);
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -270,7 +270,7 @@ li a:hover:not(.active) {
 
 #boite {
     width: 100%;
-    height: 1000%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -296,40 +296,70 @@ li a:hover:not(.active) {
 .zlatanImg {
     background-image: url(/image/zlatan.jpg);
 }
+/* Default hide the video on all devices */
+#video2{display:none}
+/* Default display the image to replace the video on all devices */
+#videosubstitute{display:block;width:100%;height:auto;max-width:100%}
+/* Medium Devices, Desktops */
 
-#videoDiv {
-    width: 100%;
-    height: 40em;
-    position: relative;
+@media only screen and (min-width : 992px) {
+#video2{display:block;}
+#videosubstitute{display:none}
 }
+#videoDiv2 {width: 100%; margin:auto; display:block;position: relative;}
+#video2{width: 100%; }
+#videoMessage2 {padding:0.4em;}
+#videoMessage2 {text-shadow: 2px 2px 2px #000000;color:white;z-index:99 }
+#videoMessage2 h1{font-size: 2em;color:#ffffff;text-align:center;margin: 0.25em;}
+#videoMessage2 h2{font-size: 1.5em;color:#ffffff;text-align:center;margin: 0.25em;}
+#videoMessage2 h3{font-size: 1.3em;color:#ffffff;text-align:center;margin: 0.25em;}
+.videoClick2 {text-align:center}
+.videoClick2 a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
 
-#videoBlock {
-    width: 100%;
-    height: 100%;
+#videoMessageBox2 {
+    position: absolute;  top: 0;  left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
 }
 
+#videoMessage2 {
+     -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+}
 
 /* contenu pour le site Decouverte */
 
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
+    padding: 3em;
     background-color: transparent;
 }
 
 .flex-container .box {
     width: 75%;
     margin: 10px;
+    padding: 1em;
     text-align: left;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 2em;
     word-break: break-word;
     background-color: #ffffffda;
     font-size: medium;
-    line-height: 200%;
 }
 
 .box2 {
