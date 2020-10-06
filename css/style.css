@@ -202,7 +202,7 @@ li a:hover:not(.active) {
 
 .contenu {
     display: block;
-    background-image: url(https://videohive.img.customer.envatousercontent.com/files/2308610/lines-background.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=ac0e5a5854dd26fb073dbcb1ff7f1c1d);
+    background-image: url(https://iphonesoft.fr/images/_052019/wallpaper-fond-ecran-wave-2-iphone-xs-max-iphone-xr.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -257,12 +257,19 @@ li a:hover:not(.active) {
     background: rgba(224, 101, 101, 0.8);
 }
 
+
 .imgblock {
     display: inline-block;
     margin: 10px;
     width: 280px;
     padding: 10px;
     background: rgba(224, 101, 101, 0.8);
+}
+
+.GlobalBox{
+    display: block;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.603);;
 }
 
 
@@ -308,40 +315,6 @@ li a:hover:not(.active) {
 }
 #videoDiv2 {width: 100%; margin:auto; display:block;position: relative;}
 #video2{width: 100%; }
-#videoMessage2 {padding:0.4em;}
-#videoMessage2 {text-shadow: 2px 2px 2px #000000;color:white;z-index:99 }
-#videoMessage2 h1{font-size: 2em;color:#ffffff;text-align:center;margin: 0.25em;}
-#videoMessage2 h2{font-size: 1.5em;color:#ffffff;text-align:center;margin: 0.25em;}
-#videoMessage2 h3{font-size: 1.3em;color:#ffffff;text-align:center;margin: 0.25em;}
-.videoClick2 {text-align:center}
-.videoClick2 a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
-
-#videoMessageBox2 {
-    position: absolute;  top: 0;  left: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 100%;
-    height:100%;
-}
-
-#videoMessage2 {
-     -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    width: 100%;
-}
-
 /* contenu pour le site Decouverte */
 
 .flex-container {
@@ -395,10 +368,14 @@ li a:hover:not(.active) {
 
 .textUndertitle {
     display: block;
-    background: rgba(0, 0, 0, 0.137);
-    padding: 5%;
+    background: rgba(0, 0, 0, 0.726);
+    padding: 1em;
+    font-weight: 700;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: white;
+    line-height: 2em;
+    font-size: x-large;
 }
 
 
