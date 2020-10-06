@@ -1,13 +1,10 @@
-
 body {
-  margin: 0;
-  padding: 40px 0 0 0;
-  font-family: sans-serif;
-  color: #333;
-  line-height: 140%;
+    margin: 0;
+    padding: 40px 0 0 0;
+    font-family: sans-serif;
+    color: #333;
+    line-height: 140%;
 }
-
-
 
 
 /*sidebar*/
@@ -28,7 +25,6 @@ ul {
 li {
     margin-left: 5%;
     color: white;
-    
 }
 
 li a {
@@ -60,7 +56,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
+    background-color: #1c8520;
     color: white;
 }
 
@@ -75,16 +71,37 @@ li a:hover:not(.active) {
     font-size: 18px;
 }
 
-a:hover, .dropdown-btn:hover {
+.dropdown-btn:hover {
     color: #f1f1f1;
-  }
+    background-color: #1c8520;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.item:hover {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
 
 .dropdown-container {
     display: none;
     padding-left: 8px;
     color: white;
-  }  
-  .dropdown-btn{
+}
+
+.dropdown-btn {
     margin: .4em;
     padding: 1em;
     cursor: pointer;
@@ -96,104 +113,88 @@ a:hover, .dropdown-btn:hover {
     -moz-osx-font-smoothing: grayscale;
     width: 85%;
     margin-left: 5%;
-  }
+}
 
 .dropdown-container .dropdown_item-1 {
     transform-origin: top center;
-<<<<<<< Updated upstream
-    animation: translateX 300ms 60ms ease-in-out forwards;
+    animation: translateX 300ms 0ms ease-in-out forwards;
 }
+
 .dropdown-container .dropdown_item-2 {
     transform-origin: top center;
-    animation: translateX 300ms 120ms ease-in-out forwards;
+    animation: translateX 300ms 60ms ease-in-out forwards;
 }
+
 .dropdown-container .dropdown_item-3 {
     transform-origin: top center;
-    animation: translateX 300ms 180ms ease-in-out forwards;
+    animation: translateX 300ms 120ms ease-in-out forwards;
 }
+
 .dropdown_menu-5 .dropdown_item-4 {
     transform-origin: top center;
-    animation: translateX 300ms 240ms ease-in-out forwards;
+    animation: translateX 300ms 180ms ease-in-out forwards;
 }
+
 .dropdown_menu-5 .dropdown_item-5 {
     transform-origin: top center;
-    animation: translateX 300ms 300ms ease-in-out forwards;
+    animation: translateX 300ms 240ms ease-in-out forwards;
 }
 
-  /* outil dropdown */
-=======
-    animation: translateX 300ms 0ms ease-in-out forwards;
-  }
-  .dropdown-container .dropdown_item-2 {
-    transform-origin: top center;
-    animation: translateX 300ms 60ms ease-in-out forwards;
-  }
-  .dropdown-container .dropdown_item-3 {
-    transform-origin: top center;
-    animation: translateX 300ms 120ms ease-in-out forwards;
-  }
-  .dropdown_menu-5 .dropdown_item-4 {
-    transform-origin: top center;
-    animation: translateX 300ms 180ms ease-in-out forwards;
-  }
-  .dropdown_menu-5 .dropdown_item-5 {
-    transform-origin: top center;
-    animation: translateX 300ms 240ms ease-in-out forwards;
-  }
->>>>>>> Stashed changes
-  @-moz-keyframes translateX {
+@-moz-keyframes translateX {
     0% {
-      opacity: 0;
-      transform: translateX(60px);
+        opacity: 0;
+        transform: translateX(60px);
     }
     80% {
-      transform: translateX(-5px);
+        transform: translateX(-5px);
     }
     100% {
-      opacity: 1;
-      transform: translateX(0px);
+        opacity: 1;
+        transform: translateX(0px);
     }
-  }
-  @-webkit-keyframes translateX {
-    0% {
-      opacity: 0;
-      transform: translateX(60px);
-    }
-    80% {
-      transform: translateX(-5px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  @-o-keyframes translateX {
-    0% {
-      opacity: 0;
-      transform: translateX(60px);
-    }
-    80% {
-      transform: translateX(-5px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  @keyframes translateX {
-    0% {
-      opacity: 0;
-      transform: translateX(60px);
-    }
-    80% {
-      transform: translateX(-5px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
+}
 
+@-webkit-keyframes translateX {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    80% {
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@-o-keyframes translateX {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    80% {
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes translateX {
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    80% {
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 
 
 /* Css pour le contenu */
@@ -209,7 +210,6 @@ a:hover, .dropdown-btn:hover {
     top: auto;
 }
 
-
 .titleImage {
     background-image: url(/image/oeil.jpg);
     background-size: cover;
@@ -224,35 +224,36 @@ a:hover, .dropdown-btn:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.toblackBg{
-  display: block;
-  width: max-content;
-  color: white;
-  margin: 10px;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.151);
+.toblackBg {
+    display: block;
+    width: max-content;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.151);
 }
 
-.toWhiteBg{
-  display: block;
-  color: black;
-  width: max-content;
-  margin: 10px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.151);
+.toWhiteBg {
+    display: block;
+    color: black;
+    width: max-content;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.151);
 }
+
 
 /* Css pour Aije une dischromatopsie */
 
-.thinkbackground{
-  background-image: url(/image/think.png);
+.thinkbackground {
+    background-image: url(/image/think.png);
 }
 
 .smalltext2 {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  background: rgba(224, 101, 101, 0.8);
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(224, 101, 101, 0.8);
 }
 
 .imgblock {
@@ -280,7 +281,7 @@ a:hover, .dropdown-btn:hover {
 }
 
 .miniboite {
-  padding: 1em;
+    padding: 1em;
     text-align: left;
     line-height: 75px;
     font-size: 50px;
@@ -291,24 +292,26 @@ a:hover, .dropdown-btn:hover {
     line-height: 200%;
 }
 
-.zlatanImg{
-  background-image: url(/image/zlatan.jpg);
+.zlatanImg {
+    background-image: url(/image/zlatan.jpg);
 }
 
 #videoDiv {
-  width: 100%;
-  height: 40em;
-  position: relative;
+    width: 100%;
+    height: 40em;
+    position: relative;
 }
 
 #videoBlock {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;}
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    /* contenu pour le site Decouverte */
+
+/* contenu pour le site Decouverte */
 
 .flex-container {
     display: flex;
@@ -340,10 +343,11 @@ a:hover, .dropdown-btn:hover {
     background-size: 100% 100%;
 }
 
+
 /*Css pour le site Vivre avec une dyschromatopsie */
 
-.pompierImg{
-  background-image: url(/image/pompier\ triste.png);
+.pompierImg {
+    background-image: url(/image/pompier\ triste.png);
 }
 
 .textzone {
@@ -351,19 +355,21 @@ a:hover, .dropdown-btn:hover {
     height: 500px;
     background: rgba(224, 101, 101, 0.8);
 }
-.minitextzone{
+
+.minitextzone {
     background: rgba(224, 101, 101, 0.8);
     margin: 10px;
     padding: 10px;
 }
 
-.textUndertitle{
-  display: block ;
-  background: rgba(0, 0, 0, 0.137);
-  padding: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.textUndertitle {
+    display: block;
+    background: rgba(0, 0, 0, 0.137);
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
 
 /* button en dessous*/
 
