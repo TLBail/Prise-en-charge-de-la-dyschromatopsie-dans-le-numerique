@@ -337,7 +337,7 @@ body {
 }
 
 
-/* button en dessous*/
+/* button en dessous  #region */
 
 .hvr-fade {
     display: inline-block;
@@ -379,3 +379,4 @@ user agent stylesheet a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+/*  endregion */
