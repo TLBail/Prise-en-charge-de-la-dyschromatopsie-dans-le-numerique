@@ -247,14 +247,11 @@ body {
 #boite {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0.4em;
-    margin: 0;
     color: black;
     z-index: 99;
-    margin-bottom: 0.5em;
+    background-image: url(https://i.gifer.com/JQiB.gif);
+    background-size: cover;
+    padding: 1em;
 }
 
 .miniboite {
@@ -272,45 +269,6 @@ body {
     background-image: url(/image/zlatan.jpg);
 }
 
-
-/* Default hide the video on all devices */
-
-#video2 {
-    display: none
-}
-
-
-/* Default display the image to replace the video on all devices */
-
-#videosubstitute {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%
-}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {
-    #video2 {
-        display: block;
-    }
-    #videosubstitute {
-        display: none
-    }
-}
-
-#videoDiv2 {
-    width: 100%;
-    margin: auto;
-    display: block;
-    position: relative;
-}
-
-#video2 {
-    width: 100%;
-}
 
 
 /* contenu pour le site Decouverte */
