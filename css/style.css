@@ -181,7 +181,7 @@ body {
 }
 
 .titleImage {
-    background-image: url(/image/oeil.jpg);
+    background-image: url(../image/eye-691269.jpg);
     background-size: cover;
     display: block;
     color: white;
@@ -299,7 +299,7 @@ body {
 }
 
 .BackgroundD {
-    background-image: url("/image/fondD.jpeg");
+    background-image: url("../image/fondD.jpeg");
     background-size: 100% 100%;
 }
 
@@ -307,7 +307,7 @@ body {
 /*Css pour le site Vivre avec une dyschromatopsie */
 
 .pompierImg {
-    background-image: url(/image/pompier\ triste.png);
+    background-image: url(../image/pompier\ triste.png);
 }
 
 .textzone {
