@@ -234,6 +234,10 @@ body {
     background: rgba(224, 101, 101, 0.8);
 }
 
+.underlineText{
+    text-decoration: underline;
+}
+
 .GlobalBox {
     display: block;
     padding: 1em;
@@ -328,12 +332,16 @@ body {
     padding: 1em;
     text-align: center;
     font-weight: normal;
-    text-decoration: underline;
     margin-top: 5%;
     margin-bottom: 5%;
     color: black;
     line-height: 2em;
     font-size: xx-large;
+}
+
+#conteneur{
+    display: flex;
+    
 }
 
 
