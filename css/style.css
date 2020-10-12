@@ -12,8 +12,10 @@ body {
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
+    /*pour modifier la couleur des icones et du text de la sidebar*/
     --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
+    --text-secondary: goldenrod;
+    /*pour modifier le background des items de la sidebar*/
     --bg-primary: #23232e;
     --bg-secondary: #141418;
     --transition-speed: 600ms;
@@ -270,7 +272,6 @@ body {
 }
 
 
-
 /* contenu pour le site Decouverte */
 
 .flex-container {
@@ -379,4 +380,6 @@ user agent stylesheet a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
+
 /*  endregion */
