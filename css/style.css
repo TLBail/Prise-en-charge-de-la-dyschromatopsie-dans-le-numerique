@@ -45,7 +45,7 @@ body {
 
 .nav-item {
     width: 100%;
-    text-align: center;
+    font-style: url("../font/roman_font_7.ttf") format("ttf");
 }
 
 .item2 {
@@ -254,7 +254,7 @@ body {
     background: rgba(224, 101, 101, 0.8);
 }
 
-.underlineText{
+.underlineText {
     text-decoration: underline;
 }
 
@@ -358,9 +358,8 @@ body {
     font-size: xx-large;
 }
 
-#conteneur{
+#conteneur {
     display: flex;
-    
 }
 
 
