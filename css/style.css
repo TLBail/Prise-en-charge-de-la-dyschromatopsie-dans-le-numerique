@@ -218,7 +218,7 @@ body {
 /* Css pour Aije une dischromatopsie */
 
 .thinkbackground {
-    background-image: url(/image/think.png);
+    background-image: url(../image/think.png);
 }
 
 .smalltext2 {
@@ -268,7 +268,7 @@ body {
 }
 
 .zlatanImg {
-    background-image: url(/image/zlatan.jpg);
+    background-image: url(../image/zlatan.jpg);
 }
 
 
