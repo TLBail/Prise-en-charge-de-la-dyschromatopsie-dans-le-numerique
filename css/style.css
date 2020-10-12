@@ -12,8 +12,10 @@ body {
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
+    /*pour modifier la couleur des icones et du text de la sidebar*/
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
+    /*pour modifier le background des items de la sidebar*/
     --bg-primary: #23232e;
     --bg-secondary: #141418;
     --transition-speed: 600ms;
@@ -43,6 +45,7 @@ body {
 
 .nav-item {
     width: 100%;
+    text-align: center;
 }
 
 .item2 {
@@ -63,6 +66,23 @@ body {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
     color: var(--text-secondary);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+.border {
+    border-block-color: white;
+    border-block-style: solid;
+    border-block-width: 0.01px;
 }
 
 .link-text {
@@ -274,7 +294,6 @@ body {
 }
 
 
-
 /* contenu pour le site Decouverte */
 
 .flex-container {
@@ -387,4 +406,6 @@ user agent stylesheet a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
+
 /*  endregion */
