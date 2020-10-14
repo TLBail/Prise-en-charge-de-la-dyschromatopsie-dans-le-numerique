@@ -24,8 +24,8 @@ body {
 }
 
 @font-face {
-    font-family: 'Roman';
-    src: url(../font/roman_font_7.ttf);
+    font-family: 'Libertas';
+    src: url(../font/PAC\ LIBERTAS\ font.ttf);
 }
 
 .navbar {
@@ -106,8 +106,14 @@ body {
     font-size: 30px;
 }
 
-.icon {
+.icon3 {
     margin: 0 1.7rem;
+    font-size: 40px;
+    font-family: 'Roman';
+}
+
+.icon2 {
+    margin: 0 1.3rem;
     font-size: 40px;
     font-family: 'Roman';
 }
