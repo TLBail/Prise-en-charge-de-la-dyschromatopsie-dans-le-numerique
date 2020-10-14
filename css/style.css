@@ -255,6 +255,14 @@ body {
 }
 
 
+/*Sommaire*/
+
+.indexImage {
+    background-image: url(../image/smartphone-1445448_960_720.webp);
+    padding-bottom: 17%;
+}
+
+
 /*Ai-je une dischromatopsie*/
 
 .thinkbackground {
