@@ -1,3 +1,5 @@
+/*Global*/
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@ body {
 }
 
 
-/*sidebar*/
+/*Sidebar*/
 
 :root {
     font-size: 16px;
@@ -21,9 +23,9 @@ body {
     --transition-speed: 600ms;
 }
 
-.icon {
-    margin: 0 1.5rem;
-    font-size: 40px;
+@font-face {
+    font-family: 'Roman';
+    src: url(../font/roman_font_7.ttf);
 }
 
 .navbar {
@@ -31,6 +33,20 @@ body {
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow: scroll;
+}
+
+.navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+}
+
+.navbar:hover {
+    width: 30rem;
+}
+
+.navbar:hover .link-text {
+    display: inline;
 }
 
 .navbar-nav {
@@ -45,11 +61,23 @@ body {
 
 .nav-item {
     width: 100%;
-    font-style: url("../font/roman_font_7.ttf") format("ttf");
 }
 
-.item2 {
-    font-size: 30px;
+.border {
+    border-block-color: white;
+    border-block-style: solid;
+    border-block-width: 0.01px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
 }
 
 .nav-link {
@@ -68,21 +96,26 @@ body {
     color: var(--text-secondary);
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    filter: grayscale(100%) opacity(0.7);
-    transition: var(--transition-speed);
+.nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1rem;
 }
 
-.border {
-    border-block-color: white;
-    border-block-style: solid;
-    border-block-width: 0.01px;
+.item2 {
+    font-size: 30px;
+}
+
+.icon {
+    margin: 0 1.7rem;
+    font-size: 40px;
+    font-family: 'Roman';
+}
+
+.icon1 {
+    margin: 0 1.4rem;
+    font-size: 40px;
+    font-family: 'Roman';
 }
 
 .link-text {
@@ -90,31 +123,14 @@ body {
     margin-left: 1rem;
 }
 
-.nav-link svg {
-    width: 2rem;
-    min-width: 2rem;
-    margin: 0 1.5rem;
-}
-
-.navbar {
-    top: 0;
-    width: 5rem;
-    height: 100vh;
-}
-
-.navbar:hover {
-    width: 30rem;
-}
-
-.navbar:hover .link-text {
-    display: inline;
-}
-
 .dropdown-container {
     display: none;
     padding-left: 8px;
     color: white;
 }
+
+
+/*Animation sidebar*/
 
 .dropdown-container .dropdown_item-1 {
     transform-origin: top center;
@@ -188,7 +204,7 @@ body {
 }
 
 
-/* Css pour le contenu */
+/*Contenu*/
 
 .contenu {
     display: block;
@@ -233,7 +249,7 @@ body {
 }
 
 
-/* Css pour Aije une dischromatopsie */
+/*Ai-je une dischromatopsie*/
 
 .thinkbackground {
     background-image: url(../image/think.png);
@@ -262,11 +278,10 @@ body {
     display: block;
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.603);
-    ;
 }
 
 
-/* Css pour le site Ques que cest ? */
+/*Qu'est ce que c'est ?*/
 
 #boite {
     width: 100%;
@@ -294,7 +309,7 @@ body {
 }
 
 
-/* contenu pour le site Decouverte */
+/*Decouverte*/
 
 .flex-container {
     display: flex;
@@ -327,7 +342,7 @@ body {
 }
 
 
-/*Css pour le site Vivre avec une dyschromatopsie */
+/*Vivre avec une dyschromatopsie*/
 
 .pompierImg {
     background-image: url(../image/pompier\ triste.png);
@@ -361,50 +376,3 @@ body {
 #conteneur {
     display: flex;
 }
-
-
-/* button en dessous  #region */
-
-.hvr-fade {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    overflow: hidden;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: color, background-color;
-    transition-property: color, background-color;
-}
-
-[class^="hvr-"] {
-    margin: .4em;
-    padding: 1em;
-    cursor: pointer;
-    background: #e1e1e1;
-    text-decoration: none;
-    color: #666;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-p,
-[class^="hvr-"] {
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    color: #2098D1;
-    text-decoration: none;
-}
-
-user agent stylesheet a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-
-/*  endregion */
