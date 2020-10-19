@@ -372,19 +372,20 @@ body {
 .textzone {
     display: inline-block;
     height: 30em;
-    background: rgba(224, 101, 101, 0.8);
+    background: rgba(255, 255, 255, 0.445);
     width: auto;
     margin: 1em;
     
 }
 
 .minitextzone {
-    background: rgba(224, 101, 101, 0.8);
+    background: rgba(255, 255, 255, 0.452);
     position: relative;
     top: 50%;
     transform: perspective(1px) translateY(-50%);
     font-size: 2em;
     line-height: 1em;
+    padding: 1em;
     margin: 1em;
 }
 
@@ -408,7 +409,7 @@ body {
     margin: 10px;
     width: fit-content;
     padding: 10px;
-    background: rgba(224, 101, 101, 0.8);   
+    background: rgba(255, 255, 255, 0.8);   
 }
 
 .centerImage{
@@ -420,7 +421,7 @@ body {
 #conteneur {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(90, 86, 86, 0.315);
+    background-color: rgba(255, 255, 255, 0.315);
 }
 
 #smallconteneur{
