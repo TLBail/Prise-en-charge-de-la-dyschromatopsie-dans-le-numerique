@@ -7,9 +7,6 @@ for (i = 0; i < dropdown.length; i++) {
         var sidebarHover = document.getElementsByClassName("navbar")
         this.classList.toggle("active");
         var dropdownContent = this.nextElementSibling;
-        while (sidebarHover.getElementsByClassName().) {
-
-        }
         if (dropdownContent.style.display === "block") {
             dropdownContent.style.display = "none";
         } else {
