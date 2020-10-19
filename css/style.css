@@ -135,6 +135,14 @@ body {
     color: white;
 }
 
+.lien {
+    display: none;
+}
+
+.navbar-nav:hover .lien {
+    display: inline-block;
+}
+
 
 /*Animation sidebar*/
 
