@@ -4,7 +4,6 @@ var i;
 
 for (i = 0; i < dropdown.length; i++) {
     dropdown[i].addEventListener("click", function() {
-        var sidebarHover = document.getElementsByClassName("navbar")
         this.classList.toggle("active");
         var dropdownContent = this.nextElementSibling;
         if (dropdownContent.style.display === "block") {
