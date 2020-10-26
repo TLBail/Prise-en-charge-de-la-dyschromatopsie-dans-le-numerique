@@ -157,10 +157,6 @@ body {
     color: white;
 }
 
-.lien {
-    display: none;
-}
-
 .navbar:hover .lien {
     display: inline-block;
 }
