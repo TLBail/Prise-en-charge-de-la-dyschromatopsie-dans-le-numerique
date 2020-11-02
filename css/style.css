@@ -291,11 +291,12 @@ body {
 
 .toblackBg {
     display: block;
-    width: auto;
+
     line-height: 1em;
     color: white;
     margin: 0.5em;
     padding: 0.5em;
+    margin-right: 30%;
     background: rgba(0, 0, 0, 0.151);
 }
 
@@ -314,6 +315,25 @@ body {
 .indexImage {
     background-image: url(../image/indexImage.png);
     padding-bottom: 17%;
+}
+
+.WelcomeBox{
+    display: block;
+    background-color: #ffffffc5;
+    padding: 3em;
+    border-radius: 4em;
+    margin:5em;
+
+}
+
+.WelcomeText{
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+    font-size: 2em;
+    line-height: 2em;
 }
 
 
