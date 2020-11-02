@@ -285,16 +285,17 @@ body {
     padding-bottom: 5%;
     margin-bottom: 10%;
     background-color: teal;
-    font-size: xx-large;
+    font-size: 5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .toblackBg {
     display: block;
-    width: max-content;
+    width: auto;
+    line-height: 1em;
     color: white;
-    margin: 10px;
-    padding: 20px;
+    margin: 0.5em;
+    padding: 0.5em;
     background: rgba(0, 0, 0, 0.151);
 }
 
@@ -386,20 +387,38 @@ body {
 
 .flex-container .box {
     width: 75%;
-    margin: 10px;
-    padding: 1em;
+    margin: 0.5em;
+    padding-top: 10%;
+    padding-left: 1em;
     text-align: left;
     line-height: 2em;
     word-break: break-word;
     background-color: #ffffffda;
-    font-size: medium;
+    font-size: 2em;
 }
 
 .box2 {
-    margin: 10px;
+    width: 20%;
+    margin: 0.5em;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+}
+
+.box3 {
+    background-color: #ffffff96;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.box4{
+    display: block;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
 }
 
 .BackgroundD {
