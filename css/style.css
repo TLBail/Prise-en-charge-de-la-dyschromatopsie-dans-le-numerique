@@ -319,23 +319,72 @@ body {
 
 .WelcomeBox{
     display: block;
-    background-color: #ffffffc5;
+    background-color: rgba(51, 51, 51, 0.815);
     padding: 3em;
     border-radius: 4em;
     margin:5em;
+    margin-top: 1;
 
 }
 
 .WelcomeText{
     text-align: center;
     display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 50%;
     font-size: 2em;
+    line-height: 2em;
+    color: seashell;
+}
+
+.PlanBox{
+    display: block;
+    background-color: #ececec;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.PlanBigSousBox{
+    display: flex;
+    
+    padding: 1em;
+    background-color: #ffffff96;
+}
+.PlanSousBox{
+    display: flex;
+    background-color: #ececec;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.PlanTextGrandePartit{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    background-color: #ffffff96;
+}
+
+
+.PlanTextPetitePartit{
+    text-align: center;
+    font-size: 1em;
     line-height: 2em;
 }
 
+.PlanTitlePetitePartit{
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.LittleLogo{
+    display: block;
+    width: auto;
+    height: 100%;
+}
 
 /*Ai-je une dischromatopsie*/
 
