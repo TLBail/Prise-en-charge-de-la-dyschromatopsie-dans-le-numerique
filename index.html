@@ -92,6 +92,12 @@
                     <span class="link-text">Solutions en développement</span>
                 </a>
             </div>
+            <div class="nav-item">
+                <a class="nav-link">
+                    <div class="icon1 item2"></div>
+                    <span id="myBtn" class="link-text">Modification couleur</span>
+                </a>
+            </div>
         </ul>
         <div class="arrow">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-right" class="arr svg-inline--fa fa-angle-double-right fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"></path></svg>
@@ -170,8 +176,26 @@
             
         </div>
     </div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>Test Daltonisme</h1>
+    <p>Quel est le nombre ?</p>
+    	Votre réponse<br>
+        <input type="text" id="answer" name="answer"><br><br>
+        <button onclick="myFunction()">Valider</button><br><br>
+    <p id="test"></p>
+  </div>
+
+</div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="javascript/dropdown.js"></script>
+    <script src="javascript/modal.js"></script>
 </body>
 
 </html>
