@@ -596,3 +596,8 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+  #modal_test{
+      width: 233px;
+      height: 233px;
+      background-image: url(../image/test8demi3.jpg);
+  }
