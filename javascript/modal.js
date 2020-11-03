@@ -33,42 +33,48 @@ window.onload = function () {
     }
 }
 
+var a =0
+var b =0
 function myFunction(){
-	var answer = document.getElementById("answer").value;
-    document.getElementById("modal_test").style.backgroundImage = "url(../image/25.png)"
-    var answer2 = document.getElementById("answer").value;
 
-    if(answer === 8){
-        if(answer2 === 96){
-            //vision normale
-            modal.style.display = "none";
-            document.getElementById("modal_test").style.backgroundImage = "url(../image/test8demi3.jpg)"
-        }
-        else{
-            if(answer2 === 9){
-                //deficience rouge-bleu
-                modal.style.display = "none";
-                document.getElementById("modal_test").style.backgroundImage = "url(../image/test8demi3.jpg)"
-            }
-            else{
-                if(answer2 === 6){
-                //deficience vert-bleu
-                modal.style.display = "none";
-                document.getElementById("modal_test").style.backgroundImage = "url(../image/test8demi3.jpg)"
-                }
-                else{
-                    //vision normale
-                    modal.style.display = "none";
-                    document.getElementById("modal_test").style.backgroundImage = "url(../image/test8demi3.jpg)"
-                }
-            }
-        }
+    if(a === null){
+        var answer = document.getElementById("answer").value;
+        var a = answer
     }
     else{
-        if(answer === 3){
-            //deficience rouge-vert
-            modal.style.display = "none";
-            document.getElementById("modal_test").style.backgroundImage = "url(../image/test8demi3.jpg)"
+        if(b === null){
+            var answer2 = document.getElementById("answer").value;
+            var b = answer2
         }
+        else{
+            modal.style.display = "none";
+        }
+    }
+    document.getElementById("modal_test").style.backgroundImage = "url(../image/25.png)";
+    document.getElementById("test").innerHTML = a +"<br>" +b;
+    if(answer != null & answer2 != null){
+        if(answer === 8){
+            if(answer2 === 96){
+                /*vision normale*/
+            }
+            else{
+                if(answer2 === 9){
+                    //deficience rouge-bleu
+                }
+                else{
+                    if(answer2 === 6){
+                        //deficience vert-bleu
+                    }
+                    else{
+                        //vision normale
+                    }
+                }
+            }
+        }
+        else{
+            if(answer === 3){
+            //deficience rouge-vert
+            }  
+        }     
     }
 }
