@@ -33,25 +33,31 @@ window.onload = function () {
     }
 }
 
-var a =0
-var b =0
+var a = null;
+var b = null;
+/*var x = document.getElementById("myBtn");
+if (x.addEventListener) {                    // For all major browsers, except IE 8 and earlier
+  x.addEventListener("click", myFunction);
+} else if (x.attachEvent) {                  // For IE 8 and earlier versions
+  x.attachEvent("onclick", myFunction);
+}*/
 function myFunction(){
 
     if(a === null){
-        var answer = document.getElementById("answer").value;
-        var a = answer
+        a = document.getElementById("answer").value;
+        document.getElementById("modal_test").style.backgroundImage = "url(../image/25.png)";
     }
     else{
         if(b === null){
-            var answer2 = document.getElementById("answer").value;
-            var b = answer2
+            b = document.getElementById("answer").value;
+            document.getElementById("modal_test").style.backgroundImage = "url(../image/test8demi3.jpg)";
+            modal.style.display = "none";
         }
         else{
             modal.style.display = "none";
         }
     }
-    document.getElementById("modal_test").style.backgroundImage = "url(../image/25.png)";
-    document.getElementById("test").innerHTML = a +"<br>" +b;
+
     if(answer != null & answer2 != null){
         if(answer === 8){
             if(answer2 === 96){
