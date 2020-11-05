@@ -432,11 +432,11 @@ body {
 
 .miniboite {
     padding: 1em;
-    margin: 1em;
-    text-align: left;
-    line-height: 200%;
+    margin: 3em;
+    text-align: center;
+    line-height: 3rem;
     word-break: break-word;
-    font-size: larger;
+    font-size: 1.5rem;
 }
 
 #boite h2{
@@ -444,15 +444,22 @@ body {
     font-size: 3rem;
     margin-bottom: 1.5em;
     text-transform: capitalize;
+    margin: 4rem;
 }
 
 
 #boite  h3{
     text-align: center;
+    margin: 3em;
+    margin-top: 7em;
+    margin-bottom: 5em;
+    font-size: 1.8rem;
+    line-height: 4rem;
 }
 
 .boiteImgText{
     display: flex;
+    font-size: 2rem;
 }
 
 #boite p{
@@ -463,13 +470,46 @@ body {
     line-height: 5rem;
     width: 50%;
 }
-#boite img{
+.boiteImgText img{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
     height: auto;
 }
+
+.boiteImgText2{
+    display: block;
+    margin: 1em;
+    
+}
+
+.boiteImgText2 img{
+   display: inline-block;
+   height: auto;
+   width: 50%;
+   margin-left: 5%;
+}
+
+.carerColorer{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-color: darkgoldenrod;
+    margin-top: 2.5em;
+    margin-right: 5em;
+    padding: 2em;
+    width: 40%;
+    height: 25%;
+
+}
+
+.carerColorerText{
+    font-size: 1.5em;
+    line-height: 4em;
+    margin-top: 2em;
+}
+
 
 .zlatanImg {
     background-image: url(../image/zlatan.jpg);
