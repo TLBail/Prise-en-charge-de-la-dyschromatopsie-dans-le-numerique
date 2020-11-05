@@ -423,8 +423,8 @@ body {
 #boite {
     width: 100%;
     height: 100%;
-    color: black;
-    background-image: url(https://i.gifer.com/JQiB.gif);
+    color: white;
+    background-color: #23232e;
     background-size: cover;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -436,8 +436,39 @@ body {
     text-align: left;
     line-height: 200%;
     word-break: break-word;
-    background-color: #ffffffc5;
     font-size: larger;
+}
+
+#boite h2{
+    color: rgb(219, 131, 30);
+    font-size: 3rem;
+    margin-bottom: 1.5em;
+    text-transform: capitalize;
+}
+
+
+#boite  h3{
+    text-align: center;
+}
+
+.boiteImgText{
+    display: flex;
+}
+
+#boite p{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    line-height: 5rem;
+    width: 50%;
+}
+#boite img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
 }
 
 .zlatanImg {
