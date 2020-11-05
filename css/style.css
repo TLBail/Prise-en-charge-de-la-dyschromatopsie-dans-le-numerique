@@ -396,7 +396,8 @@ body {
     display: block;
     margin: 10px;
     padding: 10px;
-    background: rgba(224, 101, 101, 0.8);
+    color: white;
+    text-align: center;
 }
 
 .imgblock {
@@ -404,7 +405,14 @@ body {
     margin: 10px;
     width: 280px;
     padding: 10px;
-    background: rgba(224, 101, 101, 0.8);
+    background: #23232e;
+}
+
+
+.imgblock img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .underlineText {
@@ -415,6 +423,14 @@ body {
     display: block;
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.603);
+}
+
+.subGlobalBox{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
 }
 
 
@@ -598,12 +614,17 @@ body {
     background: rgba(255, 255, 255, 0.514);
     padding: 1em;
     text-align: center;
-    font-weight: normal;
+    font-weight: 600;
     margin-top: 5%;
     margin-bottom: 5%;
     color: black;
     line-height: 2em;
     font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5em;
+
 }
 
 .imagecontent {
