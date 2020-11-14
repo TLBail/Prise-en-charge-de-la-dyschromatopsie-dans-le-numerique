@@ -52,7 +52,6 @@ body {
 
 .navbar:hover .link-text {
     display: inline-block;
-    text-align: right;
 }
 
 .navbar-nav {
@@ -254,13 +253,11 @@ body {
 
 .toblackBg {
     display: block;
-
     line-height: 1em;
     color: white;
     margin: 0.5em;
     padding: 0.5em;
     margin-right: 30%;
-    background: rgba(0, 0, 0, 0.151);
 }
 
 .toWhiteBg {
@@ -497,7 +494,7 @@ body {
    margin-left: 5%;
 }
 
-.carerColorer{
+.carreColorer{
     display: inline-block;
     position: absolute;
     right: 0;
@@ -510,7 +507,7 @@ body {
 
 }
 
-.carerColorerText{
+.carreColorerText{
     font-size: 1.5em;
     line-height: 4em;
     margin-top: 2em;
