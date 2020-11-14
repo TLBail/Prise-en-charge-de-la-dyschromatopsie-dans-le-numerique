@@ -51,7 +51,8 @@ body {
 }
 
 .navbar:hover .link-text {
-    display: inline;
+    display: inline-block;
+    text-align: right;
 }
 
 .navbar-nav {
@@ -123,7 +124,6 @@ body {
 
 .dropdown-container {
     display: none;
-    padding-left: 8px;
     color: white;
 }
 
@@ -137,18 +137,18 @@ body {
 
 .navbar:hover .dropdown_item-1 {
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 
 .navbar:hover .dropdown_item-2 {
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .navbar:hover .dropdown_item-3 {
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 
