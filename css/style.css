@@ -121,12 +121,6 @@ body {
     color: var(--text-secondary);
 }
 
-.nav-link svg {
-    width: 2rem;
-    min-width: 2rem;
-    margin: 0 1rem;
-}
-
 .item2 {
     font-size: 30px;
 }
