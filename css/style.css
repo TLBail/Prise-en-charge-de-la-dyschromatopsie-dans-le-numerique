@@ -414,7 +414,7 @@ body {
 .GlobalBox {
     display: block;
     padding: 1em;
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color:#23232e;
 }
 
 .subGlobalBox{
@@ -453,6 +453,7 @@ body {
     margin-bottom: 1.5em;
     text-transform: capitalize;
     margin: 4rem;
+    line-height: 1.5em;
 }
 
 
@@ -586,17 +587,18 @@ body {
 .textzone {
     display: inline-block;
     height: 30em;
-    background: rgba(255, 255, 255, 0.445);
     width: auto;
     margin: 1em;
 }
 
 .minitextzone {
-    background: rgba(255, 255, 255, 0.452);
+
     margin-top: 10%;
     font-size: 2em;
     line-height: 1em;
     padding: 1em;
+    color: rgba(255, 255, 255, 0.952);
+    line-height: 1.3em;
 }
 
 .textUndertitle {
@@ -622,7 +624,6 @@ body {
     margin: 10px;
     width: fit-content;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.404);
 }
 
 .centerImage {
@@ -632,13 +633,12 @@ body {
 #conteneur {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.315);
+    background-color:#23232e;
 }
 
 #smallconteneur {
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgba(255, 255, 255, 0.151);
 }
 
 /*test daltonisme*/
