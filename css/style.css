@@ -277,22 +277,18 @@ body {
     padding-bottom: 17%;
 }
 
-.WelcomeBox{
-    display: block;
-    background-color: rgba(51, 51, 51, 0.815);
-    padding: 3em;
-    border-radius: 4em;
-    margin:5em;
-    margin-top: 1;
+.titleImage h2{
+    text-align: left;
+    font-size: 0.4em;
+    line-height: 1.5em;
+    font-style: italic;
+    width: 50%;
+    max-width: 1000px;
+    margin-left: 4em;
+    font-weight: lighter;
+    
+    color: rgba(255, 255, 255, 0.856);
 
-}
-
-.WelcomeBox p{
-    text-align: center;
-    display: block;
-    font-size: 2em;
-    line-height: 2em;
-    color: seashell;
 }
 
 .PlanBox{
@@ -377,6 +373,13 @@ body {
     height: 4rem;
 
 }
+
+ hr{
+     width: 50%;
+     margin-top: 5em;
+     margin-bottom: 5em;
+     border: 1px solid rgba(0, 0, 0, 0.452);
+ }
 
 /*Ai-je une dischromatopsie*/
 
