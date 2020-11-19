@@ -564,7 +564,6 @@ body {
 }
 
 .box3 {
-    margin-top: 4em;
     background-color: #23232e;
     text-align: center;
     line-height: 75px;
@@ -574,7 +573,7 @@ body {
     
 }
 
-.box4{
+.box3 img{
     display: block;
     padding: 1em;
     margin-left: auto;
@@ -612,22 +611,29 @@ body {
     line-height: 1.3em;
 }
 
-.textUndertitle {
+#conteneur h1 {
     display: block;
-    background: rgba(255, 255, 255, 0.514);
-    padding: 1em;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    color: black;
-    line-height: 2em;
-    font-size: xx-large;
+    background-image: url(../image/child.jpg);
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5em;
     width: 50%;
-    border-radius: 5em;
+    border-radius: 1em;
+}
 
+#conteneur h1 span{
+    display: block;
+    background: rgba(255, 255, 255, 0.911);
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.795);
+    line-height: 2em;
+    font-size: xx-large;
+    border-radius: 1em;
+    padding: 5em;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .imagecontent {
