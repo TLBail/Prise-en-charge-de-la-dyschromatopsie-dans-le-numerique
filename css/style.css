@@ -658,7 +658,7 @@ body {
     background-color:#23232e;
 }
 
-#smallconteneur {
+.smallconteneur {
     display: flex;
     flex-wrap: nowrap;
 }
