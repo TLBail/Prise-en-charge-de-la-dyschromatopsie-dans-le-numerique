@@ -19,13 +19,6 @@ body {
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
-    /*pour modifier la couleur des icones et du text de la sidebar*/
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    /*pour modifier le background des items de la sidebar*/
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
-    --transition-speed: 600ms;
 }
 
 @font-face {
@@ -33,28 +26,32 @@ body {
     src: url(../font/PAC\ LIBERTAS\ font.ttf);
 }
 
-.navbar {
+nav {
     position: fixed;
-    background-color: var(--bg-primary);
+    background-color: #23232e;
     transition: width 600ms ease;
     overflow: scroll;
-}
-
-.navbar {
     top: 0;
     width: 5rem;
     height: 100vh;
 }
 
-.navbar:hover {
+nav:hover {
     width: 30rem;
 }
 
-.navbar:hover .link-text {
-    display: inline-block;
+.arrow{
+    display: flex;
+    width: 4rem;
+    height: 100%;
+    align-items: center;
+    color: whitesmoke;
+}
+nav:hover .arrow{
+    display: none;
 }
 
-.navbar-nav {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -62,31 +59,13 @@ body {
     flex-direction: column;
     height: 100%;
 }
-.navbar:hover .navbar-nav{
+nav:hover ul{
     display: flex;
     width: 100%;
 }
-.arrow{
-    display: flex;
-    width: 4rem;
-    height: 100%;
-    align-items: center;
-}
-.arr{
-    color: whitesmoke;
-}
-.navbar:hover .arrow{
-    display: none;
-}
 
-.nav-item {
-    width: 100%;
-}
-
-.border {
-    border-block-color: white;
-    border-block-style: solid;
-    border-block-width: 0.01px;
+nav:hover span{
+    display: inline-block;
 }
 
 .title {
@@ -97,131 +76,29 @@ body {
     background-color: black;
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7);
-    transition: var(--transition-speed);
+    transition: 600ms;
+    border-bottom: 0.01px solid white;
+    border-top: 0.01px solid white;
 }
 
-.nav-link {
+nav a{
     display: flex;
     align-items: center;
     height: 5rem;
-    color: var(--text-primary);
+    color: #b6b6b6;
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7);
-    transition: var(--transition-speed);
+    transition: 600ms;
 }
 
-.nav-link:hover {
+nav a:hover {
     filter: grayscale(0%) opacity(1);
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
+    background: #141418;
+    color: #ececec;
 }
 
-.link-text {
-    display: none;
+nav span{
     margin-left: 1rem;
-}
-
-.dropdown-container {
-    display: none;
-    color: white;
-}
-
-.navbar:hover .lien {
-    display: inline-block;
-}
-
-.dropdown_item-1,.dropdown_item-2,.dropdown_item-3{
-    display: none;
-}
-
-.navbar:hover .dropdown_item-1 {
-    display: flex;
-    margin-left: 10%;
-}
-
-
-.navbar:hover .dropdown_item-2 {
-    display: flex;
-    margin-left: 10%;
-}
-
-.navbar:hover .dropdown_item-3 {
-    display: flex;
-    margin-left: 10%;
-}
-
-
-/*Animation sidebar*/
-
-.dropdown-container .dropdown_item-1 {
-    transform-origin: top center;
-    animation: translateX 300ms 0ms ease-in-out forwards;
-}
-
-.dropdown-container .dropdown_item-2 {
-    transform-origin: top center;
-    animation: translateX 300ms 60ms ease-in-out forwards;
-}
-
-.dropdown-container .dropdown_item-3 {
-    transform-origin: top center;
-    animation: translateX 300ms 120ms ease-in-out forwards;
-}
-
-@-moz-keyframes translateX {
-    0% {
-        opacity: 0;
-        transform: translateX(60px);
-    }
-    80% {
-        transform: translateX(-5px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@-webkit-keyframes translateX {
-    0% {
-        opacity: 0;
-        transform: translateX(60px);
-    }
-    80% {
-        transform: translateX(-5px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@-o-keyframes translateX {
-    0% {
-        opacity: 0;
-        transform: translateX(60px);
-    }
-    80% {
-        transform: translateX(-5px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes translateX {
-    0% {
-        opacity: 0;
-        transform: translateX(60px);
-    }
-    80% {
-        transform: translateX(-5px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
 }
 
 
