@@ -92,3 +92,22 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+.mySlides span{
+  display: inline;
+  position: absolute;
+  background-color: tomato;
+  right: 50px;
+  margin-top: 5%;
+  height: 80%;
+
+}
+
+.mySlides img{
+  display: inline;
+  padding: 2em;
+  padding-right: 10em;
+  height: 500px;
+  width: 150px;
+}
