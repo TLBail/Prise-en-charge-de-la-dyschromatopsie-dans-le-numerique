@@ -101,6 +101,8 @@
   right: 50px;
   margin-top: 5%;
   height: 80%;
+  width: 30%;
+  text-align: center;
 
 }
 
@@ -110,4 +112,52 @@
   padding-right: 10em;
   height: 500px;
   width: 150px;
+}
+
+.toolsButtonNav ul{
+  display: flex;
+  margin: 1em;
+  width: 100%;
+
+}
+
+.toolsButtonNav li{
+  display: flex;
+  flex-grow: 1;
+  background: linear-gradient(rgba(255, 255, 255, 0.911), rgba(255, 255, 255, 0.247));
+  color: white;
+  border-radius: 2em;
+  margin: 1em;
+  padding: 1em;
+}
+
+.toolsButtonNav li:hover{
+  padding: 1.2em;
+  font-size: 1em;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.toolsBox{
+  display: block;
+  margin: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #717171;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.toolsBox h2{
+  display: block;
+  padding: 1em;
+  line-height: 2em;
+  font-size: 2em;
+  
+}
+
+.toolsBox p{
+  margin: 3em;
+  text-align: left;
+  margin-bottom: 2em;
 }
