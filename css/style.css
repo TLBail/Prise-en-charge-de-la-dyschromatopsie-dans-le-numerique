@@ -227,7 +227,7 @@ body {
 
 /*Contenu*/
 
-.contenu {
+main {
     display: block;
     background-image: url(https://iphonesoft.fr/images/_052019/wallpaper-fond-ecran-wave-2-iphone-xs-max-iphone-xr.jpg);
     background-attachment: fixed;
@@ -235,6 +235,7 @@ body {
     height: 100%;
     margin-left: 5rem;
     top: 2%;
+    padding-top: 5em;
 }
 
 .titleImage {
@@ -245,7 +246,6 @@ body {
     padding: 10px;
     padding-top: 15%;
     padding-bottom: 5%;
-    margin-bottom: 10%;
     background-color: teal;
     font-size: 5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -376,7 +376,7 @@ body {
 
  hr{
      width: 50%;
-     margin-top: 5em;
+     margin-top: 0;
      margin-bottom: 5em;
      border: 1px solid rgba(0, 0, 0, 0.452);
  }
