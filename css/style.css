@@ -253,10 +253,10 @@ main {
 
  hr{
      width: 50%;
-     margin-top: 0;
-     margin-bottom: 5em;
+     margin-bottom: 3em;
      border: 1px solid rgba(0, 0, 0, 0.452);
  }
+
 
 
 /*Ai-je une dischromatopsie*/
@@ -495,7 +495,8 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5em;
-    width: 50%;
+    margin-bottom: 2em;
+    width: 55%;
     border-radius: 1em;
 }
 
@@ -509,8 +510,12 @@ main {
     font-size: xx-large;
     border-radius: 1em;
     padding: 5em;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#conteneur hr{
+    margin-bottom: 0;
 }
 
 .imagecontent {
