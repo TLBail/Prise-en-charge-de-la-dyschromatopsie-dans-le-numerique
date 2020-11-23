@@ -116,13 +116,12 @@
 
 .toolsButtonNav ul{
   display: flex;
-  margin: 1em;
-  width: 100%;
-
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .toolsButtonNav li{
-  display: block;
   background: linear-gradient(rgba(255, 255, 255, 0.911), rgba(255, 255, 255, 0.247));
   color: white;
   border-radius: 2em;
@@ -131,7 +130,7 @@
 }
 
 .toolsButtonNav li:hover{
-  padding: 1.2em;
+  background: linear-gradient(rgba(255, 255, 255, 0.911), rgba(255, 255, 255, 0.425));
   font-size: 1em;
   font-weight: 800;
   text-decoration: underline;
@@ -145,6 +144,7 @@
   width: 80%;
   background-color: #717171;
   color: rgba(255, 255, 255, 0.842);
+  margin-bottom: 0;
 }
 
 .toolsBox h2{
@@ -152,10 +152,12 @@
   padding: 1em;
   line-height: 2em;
   font-size: 2em;
-  
+  margin-bottom: 0;
 }
 
 .toolsBox p{
   margin: 3em;
   text-align: left;
+  margin-bottom: 0;
 }
+
