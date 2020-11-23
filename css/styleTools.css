@@ -2,7 +2,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -183,10 +182,46 @@
   background-color: rgba(0, 0, 0, 0.418);
   color: rgba(255, 255, 255, 0.767);
   padding: 2em;
-  width: 10%;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 11%;
   margin: 2em;
   line-height: 2em;
   border-radius: 0.5em;
   border: 2px solid rgba(0, 0, 0, 0.205);
   
+}
+
+.Presentoir{
+  display: flex;
+  width: 100%;
+}
+
+.Presentoir aside{
+  background-color: rgba(0, 0, 0, 0.158);
+  border: 2px solid rgba(0, 0, 0, 0.726);
+  border-radius: .5em;
+  padding: .5em;
+  margin: auto;
+  height: 30em;
+}
+
+.Presentoir aside h1{
+  padding: 1em;
+  padding-left: 0;
+  padding-right: 0;
+
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.623);
+
+  border: 1px solid red;
+
+}
+
+.Presentoir aside p{
+  height: 75%;
+  padding: 1em;
+  background-color: rgba(0, 0, 255, 0.274);
+  text-align: center;
+  font-style: italic;
 }
