@@ -3,7 +3,11 @@
 /* Slideshow container */
 .slideshow-container {
   position: relative;
+  background-color: rgba(0, 0, 0, 0.103);
+  border: 2px solid rgba(0, 0, 0, 0.726);
+  border-radius: .5em;
   margin: auto;
+  margin-right: 0;
 }
 
 /* Hide the images by default */
@@ -93,10 +97,10 @@
 }
 
 
-.mySlides span{
+.mySlides section{
   display: inline;
   position: absolute;
-  background-color: tomato;
+  background-color: rgba(255, 255, 255, 0.329);
   right: 50px;
   margin-top: 5%;
   height: 80%;
@@ -105,12 +109,27 @@
 
 }
 
+.mySlides section p{
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+}
+
+
+
 .mySlides img{
   display: inline;
   padding: 2em;
   padding-right: 10em;
   height: 500px;
   width: 150px;
+}
+
+
+.mySlides img:hover{
+  height: 510px;
+  width: 160px;
 }
 
 .toolsButtonNav ul{
@@ -195,6 +214,8 @@
 .Presentoir{
   display: flex;
   width: 100%;
+  height: 30em;
+  margin-bottom: 3em;
 }
 
 .Presentoir aside{
@@ -203,7 +224,7 @@
   border-radius: .5em;
   padding: .5em;
   margin: auto;
-  height: 30em;
+  height: 509px;
 }
 
 .Presentoir aside h1{
