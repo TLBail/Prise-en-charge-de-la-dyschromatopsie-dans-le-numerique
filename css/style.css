@@ -146,6 +146,20 @@ main {
     background: rgba(255, 255, 255, 0.151);
 }
 
+.nextBtn{
+    background-color: #333;
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+    width: 0.75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nextBtn:hover{
+    background-color: rgb(78, 78, 78);
+}
 
 /*Sommaire*/
 
