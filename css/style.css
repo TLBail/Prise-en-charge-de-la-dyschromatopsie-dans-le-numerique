@@ -565,3 +565,29 @@ main {
       height: 233px;
       background-image: url(../image/test8demi3.jpg);
   }
+
+  footer{
+      display: flex;
+      margin-left: 5rem;
+      padding: 50px 45px 18px 45px;
+      background-color: #333;
+      color: whitesmoke;
+  }
+  footer article{
+      width: 50%;
+      height: 100%;
+  }
+  #logo img{
+      width: 263px;
+      height: 127px;
+  }
+  #coord{
+      text-align: right;
+  }
+  footer a{
+      color: whitesmoke;
+      text-decoration: underline;
+  }
+  footer a:hover{
+      font-weight: 900;
+  }
