@@ -154,6 +154,11 @@
   padding-right: 0;
 }
 
+.toolsButtonNav a:hover{
+  font-size: 1em;
+  font-weight: 800;
+  text-decoration: underline;
+}
 
 .toolsButtonNav a{
   background: rgba(255, 255, 255, 0.507);
@@ -180,11 +185,6 @@
   background-image: url(../image/exemple.png);
 }
 
-.toolsButtonNav a:hover{
-  font-size: 1em;
-  font-weight: 800;
-  text-decoration: underline;
-}
 
 .toolsBox{
   display: block;
