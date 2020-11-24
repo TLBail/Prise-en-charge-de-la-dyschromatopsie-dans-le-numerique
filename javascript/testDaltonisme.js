@@ -29,6 +29,7 @@ function myFunction(){
                             }
                             else{
                                 //Achromate
+                                document.getElementById("resultat").innerHTML = "Vous êtes achromate";
                             }
                         }
                     }
