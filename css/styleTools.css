@@ -153,19 +153,19 @@
   padding-right: 0;
 }
 
-#fonctionnement{
+#fonctionnementbutton{
   background-image: url(../image/fonctionement.jpg);
 }
 
-#Avantage{
+#Avantagebutton{
   background-image: url(../image/avantage.jpg);
 }
 
-#Desavantage{
+#Desavantagebutton{
   background-image: url(../image/desaventage.png);
 }
 
-#Exemple{
+#Exemplebutton{
   background-image: url(../image/exemple.png);
 }
 .toolsButtonNav a{
