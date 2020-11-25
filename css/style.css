@@ -149,17 +149,29 @@ main {
 
 .nextBtn{
     background-color: #333;
-    color: whitesmoke;
-    text-decoration: none;
+
     display: block;
+    position: relative;
     width: max-content;
-    padding: 8px 16px;
+    height: max-content;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+    overflow: hidden;
 }
-.nextBtn:hover{
+
+.nextBtn a{
+    display: inline;
+    color: rgba(255, 255, 255, 0.884);
+    line-height: 2em;
+    padding: 5em;
+    text-decoration: none;
+    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.nextBtn a:hover{
     background-color: rgb(78, 78, 78);
 }
 

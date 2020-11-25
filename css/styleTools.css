@@ -4,7 +4,7 @@
 .slideshow-container {
   position: relative;
   background-color: rgba(0, 0, 0, 0.103);
-  border: 2px solid rgba(0, 0, 0, 0.726);
+  border: 2px solid rgba(0, 0, 0, 0.438);
   border-radius: .5em;
   margin: auto;
   margin-right: 0;
@@ -258,7 +258,7 @@
 
 .Presentoir aside{
   background-color: rgba(0, 0, 0, 0.151);
-  border: 2px solid rgba(0, 0, 0, 0.726);
+  border: 2px solid rgba(0, 0, 0, 0.432);
   border-radius: .5em;
   padding: .5em;
   padding-top: 0;
@@ -278,7 +278,8 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.075);
 
-  border: 1px solid rgba(0, 0, 0, 0.226);
+  border-top: 1px solid rgba(0, 0, 0, 0.37);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37);
 
 }
 
