@@ -27,10 +27,7 @@ function myFunction(){
                                 //deficience vert-bleu
                                 document.getElementById("resultat").innerHTML = "Vous avez une déficience vert-bleu";
                             }
-                            else{
-                                //Achromate
-                                document.getElementById("resultat").innerHTML = "Vous êtes achromate";
-                            }
+
                         }
                     }
                 }
@@ -38,7 +35,11 @@ function myFunction(){
                     if(a == 3){
                     //deficience rouge-vert
                     document.getElementById("resultat").innerHTML = "Vous avez une déficience rouge-vert";
-                    }  
+                    } 
+                    if(b!=96 | b!=9 | b!=6){
+                        //Achromate
+                        document.getElementById("resultat").innerHTML = "Vous êtes achromate";
+                    }
                 }     
             }
             a=null;
