@@ -28,7 +28,7 @@ body {
 
 nav {
     position: fixed;
-    background-color: #23232e;
+    background-color: #7e71b2;
     transition: width 600ms ease;
     overflow: scroll;
     top: 0;
@@ -45,7 +45,7 @@ nav:hover {
     width: 4rem;
     height: 100%;
     align-items: center;
-    color: whitesmoke;
+    color: #45c0d1;
 }
 nav:hover .arrow{
     display: none;
