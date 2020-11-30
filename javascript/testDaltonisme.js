@@ -5,7 +5,7 @@ function myFunction(){
 
     if(a === null){
         a = document.getElementById("answer").value;
-        document.getElementById("testD_test").style.backgroundImage = "url(../image/25.png)";
+        document.getElementById("testD_test").style.backgroundImage = "url(../image/96.jpg)";
     }
     else{
         if(b === null){
@@ -27,7 +27,6 @@ function myFunction(){
                                 //deficience vert-bleu
                                 document.getElementById("resultat").innerHTML = "Vous avez une déficience vert-bleu";
                             }
-
                         }
                     }
                 }
