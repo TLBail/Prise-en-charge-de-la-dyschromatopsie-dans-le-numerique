@@ -28,7 +28,7 @@ body {
 
 nav {
     position: fixed;
-    background-color: #236ab1;
+    background-color: #333333;
     transition: width 600ms ease;
     overflow: scroll;
     top: 0;
@@ -106,7 +106,7 @@ nav span{
 
 main {
     display: block;
-    background-image: url(https://iphonesoft.fr/images/_052019/wallpaper-fond-ecran-wave-2-iphone-xs-max-iphone-xr.jpg);
+    background-image: url(/image/cat-eyes-2944820_1920.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -198,7 +198,7 @@ main {
 
 .PlanBox{
     display: block;
-    background-color: #23232e;
+    background-color: #333333;
     padding: 1em;
 }
 
@@ -220,7 +220,7 @@ main {
     width: 80%;
     border: 2px solid rgba(0, 0, 0, 0.13);
     border-radius: 1em;
-    color: rgb(219, 131, 30);
+    color: #236ab1;
 }
 
 
