@@ -644,17 +644,23 @@ main {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+    
 }
 
   footer section li{
       display: inline-block;
       margin: 2em;
       margin-top: 0;
+      width: 40%;
   }
 
   footer section li h4{
       text-align: center;
       font-size: 1.5em;
+  }
+
+  footer section li a{
+    text-align: justify;
   }
   
