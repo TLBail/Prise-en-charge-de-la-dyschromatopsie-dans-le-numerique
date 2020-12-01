@@ -321,8 +321,9 @@ html {
 }
 
 header{
-  background-color: white;
-  margin-left: 20%;
+  background-image: url(../image/guilandes.jpg);
+  background-size: contain;
+  padding-left: 2em;
   font-size: 5em;
   line-height: 2em;
 }
