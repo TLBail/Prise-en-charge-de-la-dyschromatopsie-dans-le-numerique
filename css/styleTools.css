@@ -228,6 +228,12 @@
   line-height: 2em;
 }
 
+.toolsBox section{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 .buttonToGoUp{
   position: fixed;
   text-align: center;
