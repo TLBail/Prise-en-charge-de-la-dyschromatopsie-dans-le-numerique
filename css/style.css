@@ -384,7 +384,7 @@ main {
 
 .boiteImgText{
     display: flex;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #boite p{
@@ -427,7 +427,7 @@ main {
     padding: 2em;
     width: 40%;
     line-height: 2.2em;
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
     min-height: 30%;
     letter-spacing: 1px;
