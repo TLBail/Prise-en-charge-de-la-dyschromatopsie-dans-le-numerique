@@ -569,7 +569,7 @@ main {
 #conteneur {
     display: flex;
     flex-wrap: wrap;
-    background-color:#23232e;
+    background-color:#333;
 }
 
 .smallconteneur {
