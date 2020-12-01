@@ -108,7 +108,7 @@ main {
     display: block;
     background-image: url(../image/background\ noel.png);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     height: 100%;
     margin-left: 5rem;
     top: 2%;
@@ -626,6 +626,35 @@ main {
   }
 
   footer section{
-      display: block;
-      width: 50%;
+    display: block;
+    width: 100%;
+    color: royalblue;
+    line-height: 2em;
   }
+
+  footer section h3{
+      font-size: 2em;
+  }
+
+  footer section a{
+      display: block;
+  }
+
+  footer section ul{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+  footer section li{
+      display: inline-block;
+      margin: 2em;
+      margin-top: 0;
+  }
+
+  footer section li h4{
+      text-align: center;
+      font-size: 1.5em;
+  }
+  
