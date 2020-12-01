@@ -444,27 +444,31 @@ main {
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    padding: 3em;
+    padding: 1em;
     background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .flex-container .box {
     width: 75%;
     margin: 0.5em;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 1em;
     text-align: left;
     line-height: 2em;
     word-break: break-word;
     background-color: #ffffffda;
-    font-size: 2em;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.788);
 }
 
 .box2 {
     width: 20%;
     margin: 0.5em;
     text-align: center;
-    line-height: 75px;
+    line-height: 30px;
     font-size: 30px;
 }
 
@@ -600,6 +604,7 @@ main {
       padding: 50px 45px 18px 45px;
       background-color: #333;
       color: whitesmoke;
+      flex-wrap: wrap;
   }
   footer article{
       width: 50%;
@@ -618,4 +623,9 @@ main {
   }
   footer a:hover{
       font-weight: 900;
+  }
+
+  footer section{
+      display: block;
+      width: 50%;
   }
