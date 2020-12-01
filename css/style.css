@@ -357,7 +357,7 @@ main {
 }
 
 #boite h2{
-    color: rgb(219, 131, 30);
+    color: #236ab1;
     font-size: 3rem;
     margin-bottom: 1.5em;
     text-transform: capitalize;
@@ -421,7 +421,7 @@ main {
     display: inline-block;
     position: absolute;
     right: 0;
-    background-color: darkgoldenrod;
+    background-color: #236ab1;
     margin-top: 2.5em;
     margin-right: 2em;
     padding: 2em;
@@ -469,7 +469,7 @@ main {
 }
 
 .box3 {
-    background-color: #23232e;
+    background-color: #333333;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
