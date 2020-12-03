@@ -196,7 +196,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: #717171;
+  background-color: #333;
   color: rgba(255, 255, 255, 0.842);
   margin-bottom: 0;
   padding-bottom: 5em;
@@ -207,10 +207,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 1em;
   line-height: 2em;
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 0;
+}
+.toolsBox h2 span{
+  background-color: rgba(255, 255, 255, 0.589);
+  display: block;
+  color: rgba(0, 0, 0, 0.932);
+  padding: 1.5em;
 }
 
 .toolsBox h3{
@@ -316,7 +321,7 @@ html {
 }
 
 .articlefont{
-  background-color: rgba(255, 255, 255, 0.644);
+  background-color: rgba(51, 51, 51, 0.603);
   padding-top: 1em;
   padding-bottom: 2em;
   margin-bottom: 2em;
