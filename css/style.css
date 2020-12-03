@@ -45,6 +45,7 @@ nav:hover {
     width: 4rem;
     height: 100%;
     align-items: center;
+    color: #f3d272;
 }
 
 nav:hover .arrow{
