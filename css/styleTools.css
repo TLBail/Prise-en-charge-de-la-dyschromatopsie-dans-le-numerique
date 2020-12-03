@@ -331,6 +331,7 @@ html {
 }
 
 header{
+  background-color: #333;
   background-image: url(../image/guilandes.jpg);
   background-size: contain;
   padding-left: 2em;
