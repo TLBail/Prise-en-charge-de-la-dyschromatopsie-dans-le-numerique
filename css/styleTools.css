@@ -204,6 +204,9 @@
 
 .toolsBox h2{
   display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 1em;
   line-height: 2em;
   font-size: 2em;
