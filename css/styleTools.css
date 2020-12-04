@@ -244,6 +244,36 @@
   justify-content: center;
 }
 
+.toolsBox a{
+  display: block;
+  text-align: center;
+  padding:  1em;
+  background-color: rgba(0, 0, 0, 0.151);
+  margin-top: 2em;
+  width: min-content;
+  min-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+  border-radius: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  font-size: 2em;
+  line-height: 1.5em;
+  white-space: nowrap;
+}
+
+.toolsBox a:hover{
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.embedly-card{
+  margin-top: 10em;
+}
+
+
 
 
 .buttonToGoUp{
