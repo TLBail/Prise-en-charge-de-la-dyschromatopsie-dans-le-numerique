@@ -290,6 +290,18 @@ main {
 
 /*Ai-je une dischromatopsie*/
 
+input{
+    margin-right: 100%;
+    margin-bottom: 0.5em;
+}
+#Valider{
+    display:block;
+    background-color:#da455a;
+    color: whitesmoke;
+    border-color: #da455a;
+    margin-left: auto;
+    margin-right: auto;
+}
 .thinkbackground {
     background-image: url(../image/think.png);
 }
