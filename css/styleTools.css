@@ -363,3 +363,10 @@ header{
   font-size: 5em;
   line-height: 2em;
 }
+
+#ad {
+  margin-top: 2em;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
