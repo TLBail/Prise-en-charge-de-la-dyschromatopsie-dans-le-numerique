@@ -48,6 +48,10 @@ nav:hover {
     color: #f3d272;
 }
 
+.arrow img{
+    width: 100%;
+}
+
 nav:hover .arrow{
     display: none;
 }
