@@ -244,23 +244,28 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.151);
   margin-top: 2em;
-  width: 225px;
-  height: 90px;
   margin-left: auto;
   margin-right: auto;
   color: white;
   text-decoration: none;
+  width: 600px;
   font-size: 2em;
   line-height: 1.5em;
   white-space: nowrap;
   background-size: 100% 100% ;
   background-repeat: no-repeat;
+  border-radius: .5em;
+  padding: .5em;
 }
-.appstore{
+.toolsBox .appstore{
   background-image: url(../image/appstore1.png);
+  width: 225px;
+  height: 90px;
 }
 .googleplay{
   background-image: url(../image/googlePlay.png);
+  width: 225px;
+  height: 90px;
 }
 
 .toolsBox a:hover{
