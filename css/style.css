@@ -184,6 +184,8 @@ main {
     text-align: center;
     color: whitesmoke;
     font-size: 1.5rem;
+    line-height: 1.8em;
+    font-style: italic;
 }
 .indexImage {
     background-image: url(../image/indexImage.png);
