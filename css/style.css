@@ -306,6 +306,9 @@ input{
     margin-left: auto;
     margin-right: auto;
 }
+#Left{
+    margin-right: 5em;
+}
 .thinkbackground {
     background-image: url(../image/think.png);
 }
@@ -322,7 +325,7 @@ input{
     display: inline-block;
     margin: 10px;
     width: 280px;
-    padding: 10px;
+    padding: 2px;
     background: #23232e;
 }
 
@@ -341,6 +344,7 @@ input{
     display: block;
     padding: 1em;
     background-color:#23232e;
+    font-size: 1.5em;
 }
 
 .subGlobalBox{
@@ -349,6 +353,7 @@ input{
     margin-right: auto;
     margin-left: auto;
     width: 80%;
+    font-size: 1rem;
 }
 
 
@@ -377,7 +382,6 @@ input{
     color: #236ab1;
     font-size: 3rem;
     margin-bottom: 1.5em;
-    text-transform: capitalize;
     margin: 4rem;
     line-height: 1.5em;
 }
@@ -445,8 +449,8 @@ input{
     width: 40%;
     line-height: 2.2em;
     font-size: 1.5em;
-    text-align: center;
-    min-height: 30%;
+    text-align: left;
+    min-height: 20%;
     letter-spacing: 1px;
 }
 
@@ -516,6 +520,11 @@ input{
 
 /*Vivre avec une dyschromatopsie*/
 
+#av_inc{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+}
 .pompierImg {
     background-image: url(../image/fire.jpg);
 }
@@ -559,8 +568,8 @@ input{
     font-size: xx-large;
     border-radius: 1em;
     padding: 5em;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 #conteneur hr{
