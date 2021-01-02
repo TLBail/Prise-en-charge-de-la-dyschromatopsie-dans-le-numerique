@@ -356,11 +356,12 @@ html {
 
 header{
   background-color: #333;
-  background-image: url(../image/guilandes.jpg);
-  background-size: contain;
+  background-image: url(../image/problem-2731501_1920.jpg);
+  background-size: cover;
   padding-left: 2em;
   font-size: 5em;
   line-height: 2em;
+  color: whitesmoke;
 }
 
 #ad {
