@@ -253,9 +253,14 @@
   font-size: 2em;
   line-height: 1.5em;
   white-space: nowrap;
-  background-image: url(../image/googlePlay.png);
   background-size: 100% 100% ;
   background-repeat: no-repeat;
+}
+.appstore{
+  background-image: url(../image/appstore1.png);
+}
+.googleplay{
+  background-image: url(../image/googlePlay.png);
 }
 
 .toolsBox a:hover{
