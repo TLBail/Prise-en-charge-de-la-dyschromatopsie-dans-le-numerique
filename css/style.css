@@ -692,10 +692,3 @@ input{
   footer section li a{
     text-align: justify;
   }
-  
-  .googlePlay{
-      background-image: url(../image/googlePlay.png);
-      width: 100px;
-      height: 50px;
-      
-  }
