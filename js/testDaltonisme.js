@@ -35,7 +35,7 @@ function myFunction(){
                     //deficience rouge-vert
                     document.getElementById("resultat").innerHTML = "Vous avez une déficience rouge-vert";
                     } 
-                    if(b!=96 | b!=9 | b!=6){
+                    if(b!=96){
                         //Achromate
                         document.getElementById("resultat").innerHTML = "Vous êtes achromate";
                     }
