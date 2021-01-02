@@ -182,6 +182,11 @@ main {
 
 /*Sommaire*/
 
+#expli{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
 .indexImage {
     background-image: url(../image/indexImage.png);
     padding-bottom: 17%;
@@ -594,6 +599,7 @@ input{
 
 #conteneur {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color:#333;
 }
