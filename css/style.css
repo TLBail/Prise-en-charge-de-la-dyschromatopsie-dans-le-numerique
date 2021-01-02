@@ -154,9 +154,7 @@ main {
 
 .nextBtn{
     background-color: #333;
-
     display: block;
-    position: relative;
     width: max-content;
     height: max-content;
     text-align: center;
