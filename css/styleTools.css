@@ -242,20 +242,20 @@
 .toolsBox a{
   display: block;
   text-align: center;
-  padding:  .5em;
   background-color: rgba(0, 0, 0, 0.151);
   margin-top: 2em;
-  width: min-content;
-  min-width: 20%;
+  width: 225px;
+  height: 90px;
   margin-left: auto;
   margin-right: auto;
   color: white;
   text-decoration: none;
-  border-radius: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.164);
   font-size: 2em;
   line-height: 1.5em;
   white-space: nowrap;
+  background-image: url(../image/googlePlay.png);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
 }
 
 .toolsBox a:hover{
