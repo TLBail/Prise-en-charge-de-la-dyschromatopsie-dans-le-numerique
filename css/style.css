@@ -525,7 +525,7 @@ input{
 
 /*Vivre avec une dyschromatopsie*/
 
-#av_inc{
+.av_inc{
     text-align: center;
     color: whitesmoke;
     font-size: 2rem;
